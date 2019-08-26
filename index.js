@@ -12,7 +12,15 @@ console.log('Collecting Posts...');
 
 const transformData = data => {
     //transform here
+    let publishedPosts = [];
+    let count = 0;
+
+    data.map((post)=>{
+       if (post.post_status === 'publish'){
+           publishedPosts.push(post)
+        };
+    })
+
+    console.log(`Found ${publishedPosts.length} blogs`);
+
 }
-
-
-
