@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "json-server": "^0.15.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   }
 }
